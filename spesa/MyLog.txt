@@ -1,0 +1,62 @@
+giu 06, 2017 2:25:59 AM com.molinari.utility.log.LoggerOggetto creaLog
+INFORMAZIONI: Start programma!
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 1 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 2 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 3 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 4 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 5 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool getConnection
+INFORMAZIONI: Connection removed. Connections available: 4
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ExecuteResultSet execute
+INFORMAZIONI: Query in esecuzione: select * from PRODUCT WHERE 1=1 AND idProduct = 1
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool getConnection
+INFORMAZIONI: Connection removed. Connections available: 3
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ExecuteResultSet execute
+INFORMAZIONI: Query in esecuzione: SELECT * FROM BRAND WHERE IDBRAND = 1
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 4 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool getConnection
+INFORMAZIONI: Connection removed. Connections available: 3
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ExecuteResultSet execute
+INFORMAZIONI: Query in esecuzione: SELECT * FROM CATEGORY WHERE IDCATEGORY = null
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 4 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool getConnection
+INFORMAZIONI: Connection removed. Connections available: 3
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ExecuteResultSet execute
+INFORMAZIONI: Query in esecuzione: SELECT * FROM LIST WHERE idList IN ( SELECT IDLIST FROM PRODUCTLIST WHERE idProduct = 1)
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 4 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool getConnection
+INFORMAZIONI: Connection removed. Connections available: 3
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ExecuteResultSet execute
+INFORMAZIONI: Query in esecuzione: SELECT * FROM DISCOUNT WHERE idDiscount IN ( SELECT IDDISCOUNT FROM PRODUCTDISCOUNT WHERE idProduct = 1)
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 4 connections
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: add a new connection to pool for closed previous connection.
+giu 06, 2017 2:25:59 AM com.molinari.utility.database.ConnectionPool releaseNewConnection
+INFORMAZIONI: Now are available 5 connections
